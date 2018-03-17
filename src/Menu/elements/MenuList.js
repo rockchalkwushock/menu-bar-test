@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const StyledMenuList = styled.ul`
   display: flex;
   flex-direction: column;
+  height: ${({ state }) => (state ? '190px' : '0px')};
   list-style: none;
   margin-top: 10px;
   text-align: center;
