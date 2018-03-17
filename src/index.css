@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
